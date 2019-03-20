@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="411"
+    android:layout_height="match_parent">
+
+    //第一行
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Row11"
+            android:gravity="center"
+            android:layout_width="21dp"
+            android:layout_height="wrap_content"
+            android:text="  "
+            />
+
+        <TextView
+            android:id="@+id/Row12"
+            android:gravity="left"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="Open..."
+            />
+
+        <TextView
+            android:id="@+id/Row13"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Ctrl-O" />
+    </TableRow>
+
+    //第二行
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Row21"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            />
+
+        <TextView
+            android:id="@+id/Row22"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save..."
+            />
+
+        <TextView
+            android:id="@+id/Row23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Ctrl-S" />
+    </TableRow>
+
+    //第三行
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Row31"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            />
+
+        <TextView
+            android:id="@+id/Row32"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save As..."
+            />
+
+        <TextView
+            android:id="@+id/Row33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Ctrl-Shift-S" />
+    </TableRow>
+
+    //横线
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#aa000000" />
+    //第四行
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Row41"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            />
+
+        <TextView
+            android:id="@+id/Row42"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Import..."
+            />
+
+        <TextView
+            android:id="@+id/Row43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="" />
+    </TableRow>
+
+    //第五行
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Row51"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            />
+
+        <TextView
+            android:id="@+id/Row52"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Export..."
+            />
+
+        <TextView
+            android:id="@+id/Row53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="" />
+    </TableRow>
+
+    //横线
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#aa000000" />
+
+    //第六行
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Row61"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            />
+
+        <TextView
+            android:id="@+id/Row62"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qult"
+            />
+    </TableRow>
+
+
+</TableLayout>

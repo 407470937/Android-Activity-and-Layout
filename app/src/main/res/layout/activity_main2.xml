@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="95dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ORANGE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RED"
+        android:layout_width="87dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="RED"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="102dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="YELLOW"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/BLUE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="BLUE"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/GREEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="GREEN"
+        app:layout_constraintEnd_toStartOf="@+id/BLUE"
+        app:layout_constraintTop_toTopOf="@+id/BLUE" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:background="@android:color/holo_purple"
+        android:text="INDIGO"
+        app:layout_constraintStart_toEndOf="@+id/BLUE"
+        app:layout_constraintTop_toTopOf="@+id/BLUE" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/holo_red_light"
+        android:text="VIOLET"
+        app:layout_constraintEnd_toEndOf="@+id/BLUE"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/BLUE"
+        app:layout_constraintTop_toBottomOf="@+id/BLUE" />
+</android.support.constraint.ConstraintLayout>
